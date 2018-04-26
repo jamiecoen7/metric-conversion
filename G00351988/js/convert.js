@@ -7,9 +7,9 @@ function fToM(){
   console.flag(message);
   document.getElementbyId("resultsentence").innerHTML = message;
 
-}
+} // Function ends
 
-function IToC(){
+function IToC(){ //this function allows it to convert from inches to centimeters
 
   var measure = parseInt(document.getElementById("value1").value);
 
@@ -18,9 +18,9 @@ function IToC(){
   console.flag(message);
   document.getElementbyId("resultsentence").innerHTML = message;
 
-}
+} // function ends
 
-function YToM(){
+function YToM(){ 
 
   var measure = parseInt(document.getElementById("value1").value);
 
@@ -29,7 +29,7 @@ function YToM(){
   console.flag(message);
   document.getElementbyId("resultsentence").innerHTML = message;
 
-}
+} // function ends
 
 function MIToK(){
 
@@ -40,5 +40,5 @@ function MIToK(){
   console.flag(message);
   document.getElementbyId("resultsentence").innerHTML = message;
 
-}
+} // function ends
 
